@@ -1,0 +1,101 @@
+.sign__container {
+    background: #495567;
+    margin-top: 307px;
+    background-image: url(../../img/ovall.png);
+    background-repeat: no-repeat;
+    background-position: calc(90% + 260px) calc(10% + 140px);
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        width: 347px;
+        height: 347px;
+        background-color: transparent;
+        position: absolute;
+        border-radius: 50%;
+        top: 45%;
+        left: 59%;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        border: 15px solid #E5ECF4;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    &::before {
+        content: '';
+        width: 347px;
+        height: 347px;
+        background-color: transparent;
+        position: absolute;
+        border-radius: 50%;
+        top: 45%;
+        left: 32%;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        border: 15px solid #E5ECF4;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+}
+@media only screen and(max-width:1315px){
+    .sign__container{
+        &::after{
+            left:  calc(10% - 260px) ;
+        }
+        &::before{
+            left:30%;
+        }
+    }
+}
+
+.sign__container-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign__content {
+    width: 415px;
+    @include space-mono();
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sign__app-unit {
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.sign__app {
+    text-decoration: none;
+    margin-left: 18px;
+    width: 159px;
+    height: 56px;
+    &:hover{
+        opacity: 0.4;
+    }
+}
+@media only screen and(max-width:$tablet){
+    .sign__container-two{
+        flex-direction: column;
+    }
+    .sign__content{
+        text-align: center;
+        padding-bottom: 48px;
+    }
+}
+@media only screen and(max-width:$mobile){
+    .sign__container{
+        &::before{
+            display: none;
+        }
+    }
+    .sign__app-unit{
+        padding-bottom: 95px;
+    }
+}

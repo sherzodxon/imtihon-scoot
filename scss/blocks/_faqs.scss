@@ -1,0 +1,348 @@
+.faqs__container {
+    margin-top: 120px;
+}
+
+.faqs__title {
+    @include space-mono();
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+}
+
+.faqs__first-unit {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+
+.faqs__unit-title {
+    @include space-mono();
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.7857142686843872px;
+    margin: 0;
+}
+
+.faqs__question {
+    margin: 0;
+    margin-bottom: 16px;
+    background: rgba(242, 245, 249, 1);
+    padding: 32px 40px;
+    width: 730px;
+}
+
+.faqs__question-unit {
+    margin: 0;
+}
+
+.faqs__title-unit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqs__question-title {
+    @include space-mono();
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    margin: 0;
+}
+
+.faqs__first-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__first-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__second-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__second-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__three-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__three-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__four-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__four-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__five-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__five-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__six-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-bot.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-bot.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__six-button-active {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    background-image: url(../../img/btn-top.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+
+    &:hover {
+        background: rgb(199, 200, 202);
+        background-image: url(../../img/btn-top.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.faqs__question-content-one {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-one {
+    display: block;
+}
+
+.faqs__question-content-two {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-two {
+    display: block;
+}
+
+.faqs__question-content-three {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-three {
+    display: block;
+}
+
+.faqs__question-content-four {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-four {
+    display: block;
+}
+
+.faqs__question-content-five {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-five {
+    display: block;
+}
+
+.faqs__question-content-six {
+    display: none;
+    margin-top: 24px;
+}
+
+.faqs__question-content-active-six {
+    display: block;
+}
+
+@media only screen and(max-width:1190px) {
+    .faqs__unit-title {
+        font-size: 35px;
+    }
+
+    .faqs__question {
+        max-width: 690px;
+    }
+
+    .faqs__container-two {
+        padding: 0 32px;
+    }
+}
+
+@media only screen and(max-width:$tablet) {
+    .faqs__first-unit {
+        flex-direction: column;
+    }
+
+    .faqs__unit-title {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .faqs__question {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media only screen and(max-width:740px){
+    .faqs__question{
+        max-width: 600px;
+    }
+} 
+@media only screen and(max-width:$mobile){
+    .faqs__question{
+        max-width: 370px;
+    }
+} 

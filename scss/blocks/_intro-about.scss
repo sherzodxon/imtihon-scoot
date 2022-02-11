@@ -1,0 +1,21 @@
+.intro-about__container{
+    background: url(../../img/intro-about.png) no-repeat;
+    background-position: right center;
+}
+.intro-about__container-two{
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin-left: 165px;
+}
+.intro-about__content{
+    @include space-mono();
+    color: rgba(255, 255, 255, 1);
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+@media only screen and(max-width:$tablet){
+    .intro-about__container-two{
+        margin-left: 85px;
+    }
+}

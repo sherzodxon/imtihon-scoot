@@ -1,0 +1,44 @@
+.yellow-link {
+   @include space-mono();
+   text-align: center;
+    text-decoration: none;
+    background-color: rgba(252, 183, 43, 1);
+    padding: 14px 39px;
+    color: #FFFFFF;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+.get{
+    @include space-mono();
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(252, 183, 43, 1);
+    padding: 14px 39px;
+    color: #FFFFFF;
+    &:hover {
+        opacity: 0.7;
+    }
+
+}
+
+@media only screen and(max-width:$tablet) {
+    .yellow-link {
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and(max-width:$mobile) {
+    .yellow-link {
+        display: none;
+    }
+
+    .nav__active-link {
+        display: block;
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 90vh;
+
+    }
+}

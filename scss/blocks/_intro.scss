@@ -1,0 +1,132 @@
+.intro__container {
+    background-image: url(../../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-image: url(../../img/yellow-line.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 15px;
+        position: absolute;
+        top: 60%;
+
+    }
+
+    &::before {
+        content: '';
+        background-image: url(../../img/intro-str.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 450px;
+        height: 150px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+
+    }
+}
+
+.intro__big-text {
+    @include space-mono();
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    line-height: 56px;
+    width: 500px;
+    padding-top: 153px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.intro__small-text-unit {
+    margin-left: 10%;
+    margin-top: 40px;
+    padding-bottom: 150px;
+}
+
+.intro__small-content {
+    @include lexend-deca();
+    width: 405px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and(max-width:1290px) {
+    .intro__container {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+@media only screen and(max-width:$tablet) {
+    .intro__container {
+        background-image: url(../../img/teblet-intro.jpg);
+        background-repeat: no-repeat;
+
+        &::before {
+            content: '';
+            background-image: url(../../img/intro-str.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 450px;
+            height: 150px;
+            position: absolute;
+            top: 70%;
+            left: -10%;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .intro__big-text,
+    .intro__small-text-unit,
+    .intro__small-content {
+        @include center();
+    }
+
+}
+
+@media only screen and(max-width:$mobile) {
+    .intro__container {
+        background-image: url(../../img/mobile-inro.jpg);
+        background-repeat: no-repeat;
+        bottom: 0;
+
+        &::before {
+            content: '';
+            background-image: url(../../img/srtl.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 455px;
+            height: 150px;
+            position: absolute;
+            top: 70%;
+            left: -55%;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .intro__big-text {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.7857142686843872px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 311px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 115px;
+    }
+}
