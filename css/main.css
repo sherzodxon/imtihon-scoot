@@ -518,10 +518,10 @@ body {
 
 .header__nav-active {
   background: #333a44;
-  margin-left: 0;
+  left: -15px;
   position: absolute;
   margin-top: 58px;
-  height: 100vh;
+  height: 588px;
   -webkit-transform: scaleX(1.1) rotateX(0deg);
           transform: scaleX(1.1) rotateX(0deg);
   -webkit-transform-origin: left center;
