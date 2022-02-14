@@ -99,3 +99,18 @@
         padding-bottom: 95px;
     }
 }
+@media only screen and(max-width:480px){
+    .sign__content{
+        text-align: center;
+        padding-bottom: 48px;
+        width: 325px;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .sign__app-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 40px;
+    }
+}
