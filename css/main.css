@@ -1427,7 +1427,6 @@ body {
 
 .footer__item-link:hover {
   color: #dce0e6;
-  opacity: 0.1;
 }
 
 .footer__app-list {
@@ -1447,8 +1446,12 @@ body {
   top: 35px;
 }
 
+.footer__item-link {
+  color: #FCB72B;
+}
+
 .footer__item-link:hover {
-  opacity: 0.7;
+  color: #e4dfd6;
 }
 
 @media only screen and (max-width: 700px) {

@@ -23,7 +23,6 @@
     color: rgba(147, 156, 170, 1);
     &:hover{
         color: rgb(220, 224, 230);
-        opacity: 0.1;
     }
 }
 .footer__app-list{
@@ -34,8 +33,9 @@
     top: 35px;
 }
 .footer__item-link{
+    color:#FCB72B;
     &:hover{
-    opacity: 0.7;
+    color: #e4dfd6
     }
 }
 @media only screen and(max-width:$mobile){
