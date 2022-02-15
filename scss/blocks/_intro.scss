@@ -134,4 +134,9 @@
     .intro__small-content{
         width: 320px;
     }
+    .intro__container{
+        &::before{
+            left: -65%;
+        }
+    }
 }

@@ -19,3 +19,15 @@
         margin-left: 85px;
     }
 }
+@media only screen and(max-width:$mobile){
+    .intro-about__container{
+        background-position: center center;
+        position: relative;
+    }
+    .intro-about__content{
+        text-align: center;
+    }
+    .intro-about__container-two{
+        margin: 0;
+    }
+}

@@ -669,10 +669,12 @@ body {
   background-color: #fcb72b;
   padding: 14px 39px;
   color: #FFFFFF;
+  border: 2px solid #fcb72b;
 }
 
 .yellow-link:hover {
-  opacity: 0.7;
+  background-color: transparent;
+  color: #fcb72b;
 }
 
 .get {
@@ -691,10 +693,12 @@ body {
   background-color: #fcb72b;
   padding: 14px 39px;
   color: #FFFFFF;
+  border: 2px solid #fcb72b;
 }
 
 .get:hover {
-  opacity: 0.7;
+  background-color: transparent;
+  color: #fcb72b;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -860,6 +864,9 @@ body {
   .intro__small-content {
     width: 320px;
   }
+  .intro__container::before {
+    left: -65%;
+  }
 }
 
 .helps__container-two {
@@ -986,7 +993,7 @@ body {
 }
 
 .adversiting__container {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .adversiting__flexer {
@@ -1172,8 +1179,16 @@ body {
     width: 300px;
     height: 300px;
   }
-  .adversiting__flexer::after {
-    display: none;
+  .first-flexer::after {
+    right: -30%;
+    width: 350px;
+  }
+  .second-flexer::after {
+    left: -140%;
+  }
+  .three-flexer::after {
+    right: -30%;
+    width: 350px;
   }
   .adversiting__title {
     font-size: 38px;
@@ -1315,8 +1330,8 @@ body {
     text-align: center;
     padding-bottom: 48px;
     width: 325px;
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 32px;
+    line-height: 32px;
   }
   .sign__app-img {
     margin-left: auto;
@@ -1472,6 +1487,19 @@ body {
 @media only screen and (max-width: 1000px) {
   .intro-about__container-two {
     margin-left: 85px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-about__container {
+    background-position: center center;
+    position: relative;
+  }
+  .intro-about__content {
+    text-align: center;
+  }
+  .intro-about__container-two {
+    margin: 0;
   }
 }
 
@@ -1702,10 +1730,17 @@ body {
   background: #f2f5f9;
   padding: 32px 40px;
   width: 730px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.faqs__question:hover {
+  background: #f1daaa;
 }
 
 .faqs__question-unit {
   margin: 0;
+  list-style: none;
 }
 
 .faqs__title-unit {
@@ -1740,15 +1775,11 @@ body {
   padding: 10px 15px;
   background-image: url(../../img/btn-bot.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
   border-radius: 3px;
-}
-
-.faqs__first-button:hover {
-  background: #c7c8ca;
-  background-image: url(../../img/btn-bot.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  padding-right: 90%;
+  right: 45px;
+  position: absolute;
 }
 
 .faqs__first-button-active {
@@ -1757,15 +1788,11 @@ body {
   padding: 10px 15px;
   background-image: url(../../img/btn-top.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
   border-radius: 3px;
-}
-
-.faqs__first-button-active:hover {
-  background: #c7c8ca;
-  background-image: url(../../img/btn-top.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  padding-right: 90%;
+  position: absolute;
+  right: 45px;
 }
 
 .faqs__second-button {
@@ -2030,6 +2057,28 @@ body {
 @media only screen and (max-width: 700px) {
   .faqs__question {
     max-width: 370px;
+  }
+  .faqs__question-title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .faqs__unit-title {
+    font-size: 28px;
+  }
+  .faqs__title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .faqs__question {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .faqs__question {
+    max-width: 250px;
   }
 }
 /*# sourceMappingURL=main.css.map */

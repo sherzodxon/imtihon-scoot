@@ -1,5 +1,5 @@
 .adversiting__container {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .adversiting__flexer {
@@ -16,7 +16,6 @@
 
 .first-flexer {
     position: relative;
-
     &::after {
         content: '';
         width: 734px;
@@ -186,9 +185,21 @@
         width: 300px;
         height: 300px;
     }
-    .adversiting__flexer{
+    .first-flexer{
         &::after{
-            display: none;
+         right: -30%;
+         width: 350px;
+        }
+    }
+    .second-flexer{
+        &::after{
+         left: -140%;
+        }
+    }
+    .three-flexer{
+        &::after{
+         right: -30%;
+         width: 350px;
         }
     }
 .adversiting__title {
