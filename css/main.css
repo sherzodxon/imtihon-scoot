@@ -651,7 +651,7 @@ body {
   }
   .header__nav {
     display: none;
-    width: 65%;
+    width: 80%;
     z-index: 1;
   }
   .header__logo-link {
@@ -745,7 +745,7 @@ body {
   .nav__active-link {
     display: block;
     position: absolute;
-    margin-left: 15%;
+    margin-left: 11%;
     margin-top: 500px;
   }
 }
@@ -756,6 +756,7 @@ body {
   background-size: cover;
   max-width: 1440px;
   position: relative;
+  margin-top: 50px;
 }
 
 .intro__container::after {
@@ -1446,11 +1447,11 @@ body {
   top: 35px;
 }
 
-.footer__item-link {
+.footer__app-link {
   color: #FCB72B;
 }
 
-.footer__item-link:hover {
+.footer__app-link:hover {
   color: #e4dfd6;
 }
 
@@ -1493,6 +1494,7 @@ body {
 .intro-about__container {
   background: url(../../img/intro-about.png) no-repeat;
   background-position: right center;
+  margin-top: 60px;
 }
 
 .intro-about__container-two {
