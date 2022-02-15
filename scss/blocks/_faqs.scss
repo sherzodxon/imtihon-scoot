@@ -33,7 +33,7 @@
     position: relative;
     border-radius: 4px;
     &:hover{
-        background: rgb(241, 218, 170);
+        background: rgb(252, 241, 142);
     }
 }
 
@@ -344,8 +344,8 @@
         max-width: 370px;
     }
     .faqs__question-title{
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 20px;
+        line-height: 18px;;
     }
     .faqs__unit-title{
         font-size: 28px;
@@ -358,9 +358,27 @@
     .faqs__question{
         max-width: 300px;
     }
+    .faqs__question-title{
+        font-size: 18px;
+        line-height: 15px;
+        max-width: 200px;
+    }
 }
 @media only screen and(max-width:350px){
     .faqs__question{
         max-width: 250px;
+        padding: 20px 15px;
     }
+    .faqs__question-title{
+        font-size: 16px;
+        line-height: 15px;
+        max-width: 150px;
+    }
+    .faqs__first-button{
+        right: 25px;
+    }
+    .faqs__first-button-active{
+        right: 25px;
+    }
+
 }
