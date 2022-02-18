@@ -37,8 +37,12 @@
 }
 @media only screen and(max-width:$mobile){
     .get{
+        display:none;
         margin-left: 33px;
         padding: 6px 22px ;
+    }
+    .get--opened{
+        display: block;
     }
 } 
 @media only screen and(max-width:410px){

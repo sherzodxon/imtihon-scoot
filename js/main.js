@@ -1,11 +1,13 @@
 const burger = document.querySelector(".header__burger");
 const nav = document.querySelector(".nav");
 const body = document.querySelector("body");
+const get = document.querySelector(".get");
 
 burger.addEventListener("click", function () {
   burger.classList.toggle("header__burger--active");
   nav.classList.toggle("nav--opened");
   body.classList.toggle("freez");
+  get.classList.toggle("get--opened");
 })
 const first = document.querySelector(".faqs__first-button");
 const firstcon = document.querySelector(".faqs__question-content-one")
