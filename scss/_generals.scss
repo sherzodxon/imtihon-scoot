@@ -13,6 +13,9 @@
 body{
    @include lexend-deca();
 }
+.freez{
+    overflow: hidden;
+}
 
 .visually-hidden {
     height: 1px;

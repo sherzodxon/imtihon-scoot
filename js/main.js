@@ -1,21 +1,11 @@
 const burger = document.querySelector(".header__burger");
-const nav = document.querySelector(".header__nav");
-const list = document.querySelector(".header__list");
-const itemlink = document.querySelector(".header__item-link");
-const item = document.querySelector(".header__item");
-const item1 = document.querySelector(".header__item1");
-const item2 = document.querySelector(".header__item2");
-const yellow = document.querySelector(".yellow-link");
+const nav = document.querySelector(".nav");
+const body = document.querySelector("body");
 
 burger.addEventListener("click", function () {
   burger.classList.toggle("header__burger--active");
-  nav.classList.toggle("header__nav-active");
-  list.classList.toggle("header__list--active");
-  itemlink.classList.toggle("header__item-link-active");
-  item.classList.toggle("header__item-active");
-  item1.classList.toggle("header__item-active1");
-  item2.classList.toggle("header__item-active2");
-  yellow.classList.toggle("nav__active-link");
+  nav.classList.toggle("nav--opened");
+  body.classList.toggle("freez");
 })
 const first = document.querySelector(".faqs__first-button");
 const firstcon = document.querySelector(".faqs__question-content-one")
